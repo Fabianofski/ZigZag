@@ -11,10 +11,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float maxSpeed;
     [SerializeField] private float increaseOverTime;
     [SerializeField] private BoolVariable isDead;
+    [SerializeField] private BoolVariable playerIsPaused;
 
     private void Update()
     {
-        if (isDead.Value) return;
+        if (isDead.Value || playerIsPaused.Value) return;
         
         transform.Translate(_dir * speed * Time.deltaTime);
         

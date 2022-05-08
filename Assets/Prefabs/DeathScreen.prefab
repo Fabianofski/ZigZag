@@ -603,6 +603,18 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1456097531}
         m_TargetAssemblyTypeName: UIDeathOverlay, Assembly-CSharp
+        m_MethodName: ActivateStartingScreen
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1456097531}
+        m_TargetAssemblyTypeName: UIDeathOverlay, Assembly-CSharp
         m_MethodName: RestartScene
         m_Mode: 1
         m_Arguments:
@@ -811,6 +823,7 @@ MonoBehaviour:
   atomList:
   - {fileID: 11400000, guid: 7b7ddfc1c586441419001a339637191d, type: 2}
   - {fileID: 11400000, guid: b5be43757f7846945ae94479d07a8266, type: 2}
+  showStartOverlay: {fileID: 11400000, guid: ee75f4873d8625c4092ae4baf2661c99, type: 2}
   score: {fileID: 11400000, guid: b5be43757f7846945ae94479d07a8266, type: 2}
   scoreDeadText: {fileID: 251341654}
   highscoreText: {fileID: 1367093084}

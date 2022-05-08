@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class UIDeathOverlay : MonoBehaviour
 {
     [SerializeField] AtomBaseVariable[] atomList;
+    [SerializeField] private BoolVariable showStartOverlay;
     [SerializeField] private IntVariable score;
     [SerializeField] private TextMeshProUGUI scoreDeadText;
     [SerializeField] private TextMeshProUGUI highscoreText;
@@ -50,6 +51,11 @@ public class UIDeathOverlay : MonoBehaviour
 
         Tube.ResetSize();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void ActivateStartingScreen()
+    {
+        showStartOverlay.Value = true;
     }
     
 }

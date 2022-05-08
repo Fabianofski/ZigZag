@@ -340,3 +340,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 7856398498464565999}
+  tweenType: 25

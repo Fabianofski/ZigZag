@@ -195,6 +195,7 @@ MonoBehaviour:
   maxSpeed: 10
   increaseOverTime: 30
   isDead: {fileID: 11400000, guid: 7b7ddfc1c586441419001a339637191d, type: 2}
+  playerIsPaused: {fileID: 11400000, guid: 8a9c2aaf1f153a1438d664573c96b16c, type: 2}
 --- !u!114 &7801189035915015013
 MonoBehaviour:
   m_ObjectHideFlags: 0
